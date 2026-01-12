@@ -4,36 +4,31 @@ import { Star, CheckCircle, ChevronRight } from 'lucide-react';
 import Image from 'next/image';
 import { normalizeText } from '@/lib/utils';
 import { useState } from 'react';
+import { Locale } from '@/lib/i18n';
+import { useTranslations } from '@/lib/use-translations';
 
-interface Professional {
-  name: string;
-  role: string;
-  initials: string;
-  rating: number;
-}
-
-const professionals: Professional[] = [
+const professionalsData: Array<{ name: string; initials: string; rating: number; roleKey: 'seniorBroker' | 'luxuryAgent' | 'propertyManager' | 'realtor' }> = [
   {
     name: 'António Moreira',
-    role: 'Senior Broker',
+    roleKey: 'seniorBroker',
     initials: 'AM',
     rating: 5
   },
   {
     name: 'Sofia Costa',
-    role: 'Luxury Agent',
+    roleKey: 'luxuryAgent',
     initials: 'SC',
     rating: 4.5
   },
   {
     name: 'Miguel Fernandes',
-    role: 'Property Manager',
+    roleKey: 'propertyManager',
     initials: 'MF',
     rating: 4
   },
   {
     name: 'Carolina Rodrigues',
-    role: 'Realtor',
+    roleKey: 'realtor',
     initials: 'CR',
     rating: 5
   }
@@ -106,29 +101,35 @@ const StarRating = ({ rating }: { rating: number }) => {
   );
 };
 
-export default function ListedProfessionals() {
+interface ListedProfessionalsProps {
+  locale: Locale;
+}
+
+export default function ListedProfessionals({ locale }: ListedProfessionalsProps) {
+  const t = useTranslations(locale);
+
   return (
     <section id="professionals" className="py-24 bg-slate-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-brand-navy mb-4">
-            Listed Professionals
+            {t.listedProfessionals.title}
           </h2>
           <p className="text-lg text-slate-500">
-            Connect with verified individual agents and brokers.
+            {t.listedProfessionals.subtitle}
           </p>
         </div>
 
         {/* Professional Cards Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
-          {professionals.map((professional, index) => (
+          {professionalsData.map((professional, index) => (
             <div
               key={index}
               className="bg-white rounded-xl shadow-md p-6 flex flex-col items-center text-center hover:shadow-lg transition-shadow"
             >
               {/* Avatar with Verification Badge */}
-              <ProfessionalAvatar 
+              <ProfessionalAvatar
                 name={professional.name}
                 initials={professional.initials}
               />
@@ -140,7 +141,7 @@ export default function ListedProfessionals() {
 
               {/* Role */}
               <p className="text-xs text-slate-500 uppercase tracking-wide mb-3">
-                {professional.role}
+                {t.listedProfessionals.roles[professional.roleKey]}
               </p>
 
               {/* Star Rating */}
@@ -150,7 +151,7 @@ export default function ListedProfessionals() {
 
               {/* View Profile Button */}
               <button className="w-full px-4 py-2 border-2 border-brand-light text-brand-light bg-white rounded-lg font-medium hover:bg-brand-light hover:text-white transition-colors">
-                View Profile
+                {t.listedProfessionals.viewProfile}
               </button>
             </div>
           ))}
@@ -162,7 +163,7 @@ export default function ListedProfessionals() {
             href="#"
             className="inline-flex items-center gap-2 text-brand-navy font-medium hover:text-brand transition-colors"
           >
-            Browse all 2,340 verified professionals
+            {t.listedProfessionals.browseAll}
             <ChevronRight className="w-5 h-5" />
           </a>
         </div>

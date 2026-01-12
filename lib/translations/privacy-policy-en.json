@@ -1,0 +1,36 @@
+{
+  "title": "Privacy Policy",
+  "lastUpdated": "Last Updated: January 12, 2026",
+  "intro": "At EstateTrust, we are committed to protecting your privacy and ensuring the security of your personal information. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our platform.",
+  "sections": {
+    "informationWeCollect": {
+      "title": "Information We Collect",
+      "personalInfo": {
+        "title": "Personal Information",
+        "intro": "We collect information that you provide directly to us, including:",
+        "items": [
+          "Name, email address, and contact information",
+          "Professional credentials and qualifications",
+          "Real estate licenses and certifications",
+          "Professional history and experience",
+          "Payment and billing information",
+          "Profile photographs and identification documents"
+        ]
+      },
+      "blockchainData": {
+        "title": "Blockchain Data",
+        "description": "When you verify credentials, certain information is recorded on the blockchain, including verification timestamps, credential types, and unique identifiers. This information becomes part of a public, immutable record."
+      },
+      "usageInfo": {
+        "title": "Usage Information",
+        "description": "We automatically collect information about your interaction with our service:",
+        "items": [
+          "Device information (IP address, browser type, operating system)",
+          "Usage patterns and preferences",
+          "Pages visited and features used",
+          "Time and duration of visits"
+        ]
+      }
+    }
+  }
+}

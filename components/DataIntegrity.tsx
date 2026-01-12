@@ -1,6 +1,14 @@
 import { Lock, Ban, Database, CheckCircle } from 'lucide-react';
+import { Locale } from '@/lib/i18n';
+import { useTranslations } from '@/lib/use-translations';
 
-export default function DataIntegrity() {
+interface DataIntegrityProps {
+  locale: Locale;
+}
+
+export default function DataIntegrity({ locale }: DataIntegrityProps) {
+  const t = useTranslations(locale);
+
   return (
     <section className="py-24 bg-slate-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -10,17 +18,17 @@ export default function DataIntegrity() {
             <div className="space-y-6">
               {/* Data Integrity Tag */}
               <div className="inline-block bg-[#0A68F8] text-white text-xs font-semibold uppercase tracking-wide px-4 py-2 rounded-full">
-                Data Integrity
+                {t.dataIntegrity.badge}
               </div>
 
               {/* Main Title */}
               <h2 className="text-3xl md:text-4xl font-bold text-[#2C3E50] leading-tight">
-                Trust, Transparency & Data Privacy
+                {t.dataIntegrity.title}
               </h2>
 
               {/* Description */}
               <p className="text-base text-[#6B7280] leading-relaxed">
-                We believe that verification shouldn&apos;t come at the cost of privacy. EstateTrust adheres to the strictest GDPR and data protection standards.
+                {t.dataIntegrity.description}
               </p>
 
               {/* Feature List */}
@@ -30,7 +38,7 @@ export default function DataIntegrity() {
                     <Lock className="w-full h-full" />
                   </div>
                   <p className="text-base text-[#6B7280]">
-                    We verify without storing sensitive documents permanently.
+                    {t.dataIntegrity.features.noStorage}
                   </p>
                 </div>
 
@@ -39,7 +47,7 @@ export default function DataIntegrity() {
                     <Ban className="w-full h-full" />
                   </div>
                   <p className="text-base text-[#6B7280]">
-                    No selling of professional data to third-party marketers.
+                    {t.dataIntegrity.features.noSelling}
                   </p>
                 </div>
 
@@ -48,7 +56,7 @@ export default function DataIntegrity() {
                     <Database className="w-full h-full" />
                   </div>
                   <p className="text-base text-[#6B7280]">
-                    256-bit encrypted database infrastructure.
+                    {t.dataIntegrity.features.encryption}
                   </p>
                 </div>
               </div>
@@ -143,8 +151,8 @@ export default function DataIntegrity() {
                     <CheckCircle className="w-5 h-5 text-white" />
                   </div>
                   <div>
-                    <div className="text-sm font-bold text-[#2C3E50] leading-tight">Compliance Passed</div>
-                    <div className="text-xs text-[#6B7280] leading-tight">ISO 27001 Standard</div>
+                    <div className="text-sm font-bold text-[#2C3E50] leading-tight">{t.dataIntegrity.complianceBadge.title}</div>
+                    <div className="text-xs text-[#6B7280] leading-tight">{t.dataIntegrity.complianceBadge.subtitle}</div>
                   </div>
                 </div>
               </div>

@@ -1,71 +1,58 @@
 import { Check } from 'lucide-react';
+import { Locale } from '@/lib/i18n';
+import { useTranslations } from '@/lib/use-translations';
 
-const plans = [
-  {
-    badge: 'Individual',
-    badgeColor: 'bg-green-50 text-brand-dark',
-    name: 'Individual Professional',
-    description: 'Perfect for any real estate professional starting their verification journey.',
-    price: '€390',
-    period: '/year',
-    setup: '+ €149 one-time verification fee',
-    features: [
-      'Verified profile page with SEO-optimized backlink',
-      'Digital verification badge for your website',
-      'License & identity verification',
-      'Public trust score display',
-      'Email support'
-    ],
-    featured: false
-  },
-  {
-    badge: 'Most Popular',
-    badgeColor: 'bg-white/10 text-white',
-    name: 'Boutique Team',
-    description: 'For small agencies and teams (2-10 agents).',
-    price: '€2,400',
-    period: '/year',
-    setup: '+ €499 one-time verification fee',
-    features: [
-      'Everything in Individual plan',
-      'Up to 10 agent profiles',
-      'Agency profile page with team directory',
-      'Priority verification (48-hour turnaround)',
-      'Dedicated account manager',
-      'Priority email & phone support'
-    ],
-    featured: true,
-    highlight: 'Popular Choice'
-  },
-  {
-    badge: 'Enterprise',
-    badgeColor: 'bg-blue-50 text-blue-800',
-    name: 'Established Firm',
-    description: 'For growing brokerages with 11-50 agents.',
-    price: '€6,000',
-    period: '/year',
-    setup: '+ €999 one-time verification fee',
-    features: [
-      'Everything in Boutique Team plan',
-      'Up to 50 agent profiles',
-      'Custom branded profile pages',
-      'API access for integrations',
-      'White-label verification badges',
-      'Quarterly compliance reviews',
-      'Dedicated success manager'
-    ],
-    featured: false
-  }
-];
+interface PricingProps {
+  locale: Locale;
+}
 
-export default function Pricing() {
+export default function Pricing({ locale }: PricingProps) {
+  const t = useTranslations(locale);
+
+  const plans = [
+    {
+      badge: t.pricing.plans.individual.badge,
+      badgeColor: 'bg-green-50 text-brand-dark',
+      name: t.pricing.plans.individual.name,
+      description: t.pricing.plans.individual.description,
+      price: t.pricing.plans.individual.price,
+      period: t.pricing.plans.individual.period,
+      setup: t.pricing.plans.individual.setup,
+      features: t.pricing.plans.individual.features,
+      featured: false
+    },
+    {
+      badge: t.pricing.plans.boutique.badge,
+      badgeColor: 'bg-white/10 text-white',
+      name: t.pricing.plans.boutique.name,
+      description: t.pricing.plans.boutique.description,
+      price: t.pricing.plans.boutique.price,
+      period: t.pricing.plans.boutique.period,
+      setup: t.pricing.plans.boutique.setup,
+      features: t.pricing.plans.boutique.features,
+      featured: true,
+      highlight: t.pricing.plans.boutique.highlight
+    },
+    {
+      badge: t.pricing.plans.enterprise.badge,
+      badgeColor: 'bg-blue-50 text-blue-800',
+      name: t.pricing.plans.enterprise.name,
+      description: t.pricing.plans.enterprise.description,
+      price: t.pricing.plans.enterprise.price,
+      period: t.pricing.plans.enterprise.period,
+      setup: t.pricing.plans.enterprise.setup,
+      features: t.pricing.plans.enterprise.features,
+      featured: false
+    }
+  ];
+
   return (
     <section id="pricing" className="py-24 bg-white border-t border-slate-100">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-brand-navy">Who is EstateTrust For?</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-brand-navy">{t.pricing.title}</h2>
           <p className="mt-4 text-lg text-slate-500 max-w-2xl mx-auto">
-            Select the verification plan that matches your business size.
+            {t.pricing.subtitle}
           </p>
         </div>
 
@@ -127,12 +114,12 @@ export default function Pricing() {
         </div>
 
         <div className="mt-12 text-center">
-          <p className="text-slate-500 mb-4">Need more than 50 agents?</p>
-          <a 
-            href="#footer" 
+          <p className="text-slate-500 mb-4">{t.pricing.needMore}</p>
+          <a
+            href="#footer"
             className="inline-block px-8 py-3 border-2 border-brand text-brand font-bold rounded-lg hover:bg-green-50 transition"
           >
-            Contact Sales for Enterprise Plans
+            {t.pricing.contactSales}
           </a>
         </div>
       </div>

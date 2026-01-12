@@ -1,0 +1,193 @@
+{
+  "navigation": {
+    "benefits": "Benefícios",
+    "howWeVerify": "Como Verificamos",
+    "findPros": "Encontrar Profissionais",
+    "pricing": "Preços",
+    "getVerified": "Obter Certificação"
+  },
+  "hero": {
+    "badge": "Mais de 5.000 Agentes Certificados em 2025",
+    "title": "A Confiança é a Moeda do",
+    "titleHighlight": "Imobiliário",
+    "subtitle": "Verificamos licenças, reputação e identidade para que não tenha de o fazer. Para profissionais, é um selo de honra. Para clientes, é tranquilidade.",
+    "cta": "Certificar-se Hoje",
+    "trustMarkers": {
+      "reviews": "Avaliações",
+      "narMember": "Membro NAR",
+      "secured": "Seguro"
+    },
+    "partnerCompanies": {
+      "lisbonLuxury": {
+        "name": "Lisboa Luxo",
+        "type": "Agência Imobiliária"
+      },
+      "primeEstates": {
+        "name": "Prime Estates",
+        "type": "Gestão de Propriedades"
+      },
+      "urbanKey": {
+        "name": "Urban Key",
+        "type": "Imobiliário Comercial"
+      },
+      "coastalProperties": {
+        "name": "Propriedades Costeiras",
+        "type": "Imobiliário de Luxo"
+      },
+      "metroRealty": {
+        "name": "Metro Realty",
+        "type": "Vendas Residenciais"
+      },
+      "heritageHomes": {
+        "name": "Heritage Homes",
+        "type": "Propriedades Históricas"
+      }
+    },
+    "testimonial": "O selo de verificação deu-nos credibilidade instantânea junto dos clientes."
+  },
+  "benefits": {
+    "title": "EstateTrust Verification Delivers",
+    "trustSeal": "Selo de Confiança Verificado",
+    "contentMarketing": "Marketing de Conteúdo e Imagem de Marca",
+    "qualifiedInvestors": "Compradores e Investidores Qualificados",
+    "propertyVerifications": "Verificações de Propriedade"
+  },
+  "howWeVerify": {
+    "title": "Como Verificamos",
+    "liveIntegration": "EXEMPLO DE INTEGRAÇÃO AO VIVO",
+    "integrationNote": "Integra-se perfeitamente no seu website existente através de um script simples.",
+    "verifiedBadge": "Verificado",
+    "steps": {
+      "identity": {
+        "title": "Verificação de Identidade e Licença",
+        "description": "Cruzamos informações em bases de dados governamentais para validar licenças imobiliárias e números de registo empresarial."
+      },
+      "reputation": {
+        "title": "Auditoria de Reputação",
+        "description": "Analisamos registos públicos e plataformas de avaliação para histórico de má conduta ou reclamações de consumidores não resolvidas."
+      },
+      "address": {
+        "title": "Verificação de Morada",
+        "description": "Verificamos localizações físicas de escritórios para garantir que o negócio está estabelecido e acessível."
+      }
+    }
+  },
+  "dataIntegrity": {
+    "badge": "Integridade de Dados",
+    "title": "Confiança, Transparência e Privacidade de Dados",
+    "description": "Acreditamos que a verificação não deve ter custos ao nível da privacidade. O EstateTrust adere aos mais rigorosos padrões RGPD e de proteção de dados.",
+    "features": {
+      "noStorage": "Verificamos sem armazenar documentos sensíveis permanentemente.",
+      "noSelling": "Sem venda de dados profissionais a marketers terceiros.",
+      "encryption": "Infraestrutura de base de dados encriptada a 256 bits."
+    },
+    "complianceBadge": {
+      "title": "Conformidade Aprovada",
+      "subtitle": "Norma ISO 27001"
+    }
+  },
+  "listedProfessionals": {
+    "title": "Profissionais Listados",
+    "subtitle": "Conecte-se com agentes e mediadores verificados individualmente.",
+    "viewProfile": "Ver Perfil",
+    "browseAll": "Explorar todos os 2.340 profissionais verificados",
+    "roles": {
+      "seniorBroker": "Mediador Sénior",
+      "luxuryAgent": "Agente de Luxo",
+      "propertyManager": "Gestor de Propriedades",
+      "realtor": "Mediador Imobiliário"
+    }
+  },
+  "pricing": {
+    "title": "Para Quem é o EstateTrust?",
+    "subtitle": "Selecione o plano de verificação que corresponde ao tamanho do seu negócio.",
+    "plans": {
+      "individual": {
+        "badge": "Individual",
+        "name": "Profissional Individual",
+        "description": "Perfeito para qualquer profissional imobiliário que inicia a sua jornada de verificação.",
+        "price": "€390",
+        "period": "/ano",
+        "setup": "+ €149 taxa única de verificação",
+        "features": [
+          "Página de perfil verificado com backlink otimizado para SEO",
+          "Selo digital de verificação para o seu website",
+          "Verificação de licença e identidade",
+          "Exibição pública de pontuação de confiança",
+          "Suporte por email"
+        ]
+      },
+      "boutique": {
+        "badge": "Mais Popular",
+        "name": "Equipa Boutique",
+        "description": "Para pequenas agências e equipas (2-10 agentes).",
+        "price": "€2.400",
+        "period": "/ano",
+        "setup": "+ €499 taxa única de verificação",
+        "highlight": "Escolha Popular",
+        "features": [
+          "Tudo incluído no plano Individual",
+          "Até 10 perfis de agentes",
+          "Página de perfil de agência com diretório de equipa",
+          "Verificação prioritária (resposta em 48 horas)",
+          "Gestor de conta dedicado",
+          "Suporte prioritário por email e telefone"
+        ]
+      },
+      "enterprise": {
+        "badge": "Empresa",
+        "name": "Empresa Estabelecida",
+        "description": "Para mediadoras em crescimento com 11-50 agentes.",
+        "price": "€6.000",
+        "period": "/ano",
+        "setup": "+ €999 taxa única de verificação",
+        "features": [
+          "Tudo incluído no plano Equipa Boutique",
+          "Até 50 perfis de agentes",
+          "Páginas de perfil personalizadas com marca",
+          "Acesso à API para integrações",
+          "Selos de verificação white-label",
+          "Revisões trimestrais de conformidade",
+          "Gestor de sucesso dedicado"
+        ]
+      }
+    },
+    "needMore": "Precisa de mais de 50 agentes?",
+    "contactSales": "Contactar Vendas para Planos Empresariais"
+  },
+  "ctaSection": {
+    "title": "É um Profissional Imobiliário?",
+    "description": "Junte-se a milhares de agentes verificados. Obtenha um backlink de alta qualidade, construa confiança instantânea e destaque-se num mercado competitivo.",
+    "getVerified": "Certificar-se Agora",
+    "learnMore": "Saber Mais Sobre Planos Empresariais"
+  },
+  "footer": {
+    "tagline": "O padrão global de confiança e transparência na indústria imobiliária.",
+    "company": {
+      "title": "Empresa",
+      "aboutUs": "Sobre Nós",
+      "howItWorks": "Como Funciona",
+      "pricing": "Preços",
+      "blog": "Blog",
+      "careers": "Carreiras"
+    },
+    "resources": {
+      "title": "Recursos",
+      "helpCenter": "Centro de Ajuda",
+      "verificationGuide": "Guia de Verificação",
+      "apiDocumentation": "Documentação da API",
+      "trustSafety": "Confiança e Segurança",
+      "compliance": "Conformidade"
+    },
+    "contact": {
+      "title": "Contacto",
+      "location": "Lisboa, Portugal"
+    },
+    "legal": {
+      "copyright": "EstateTrust. Todos os direitos reservados.",
+      "privacyPolicy": "Política de Privacidade",
+      "termsOfService": "Termos de Serviço",
+      "cookiePolicy": "Política de Cookies"
+    }
+  }
+}

@@ -1,0 +1,193 @@
+{
+  "navigation": {
+    "benefits": "Benefits",
+    "howWeVerify": "How We Verify",
+    "findPros": "Find Pros",
+    "pricing": "Pricing",
+    "getVerified": "Get Verified"
+  },
+  "hero": {
+    "badge": "Over 5,000 Agents Verified in 2025",
+    "title": "Trust is the Currency of",
+    "titleHighlight": "Real Estate",
+    "subtitle": "We verify licenses, reputation, and identity so you don't have to. For professionals, it's a badge of honor. For clients, it's peace of mind.",
+    "cta": "Get Verified Today",
+    "trustMarkers": {
+      "reviews": "Reviews",
+      "narMember": "NAR Member",
+      "secured": "Secured"
+    },
+    "partnerCompanies": {
+      "lisbonLuxury": {
+        "name": "Lisbon Luxury",
+        "type": "Real Estate Agency"
+      },
+      "primeEstates": {
+        "name": "Prime Estates",
+        "type": "Property Management"
+      },
+      "urbanKey": {
+        "name": "Urban Key",
+        "type": "Commercial RE"
+      },
+      "coastalProperties": {
+        "name": "Coastal Properties",
+        "type": "Luxury Real Estate"
+      },
+      "metroRealty": {
+        "name": "Metro Realty",
+        "type": "Residential Sales"
+      },
+      "heritageHomes": {
+        "name": "Heritage Homes",
+        "type": "Historic Properties"
+      }
+    },
+    "testimonial": "The verification seal gave us instant credibility with clients."
+  },
+  "benefits": {
+    "title": "EstateTrust Verification Delivers",
+    "trustSeal": "Verified Trust Seal",
+    "contentMarketing": "Content Marketing and Branding",
+    "qualifiedInvestors": "Qualified Buyers and Investors",
+    "propertyVerifications": "Property Verifications"
+  },
+  "howWeVerify": {
+    "title": "How We Verify",
+    "liveIntegration": "LIVE INTEGRATION EXAMPLE",
+    "integrationNote": "Seamlessly integrates with your existing website via a simple script.",
+    "verifiedBadge": "Verified",
+    "steps": {
+      "identity": {
+        "title": "Identity & License Check",
+        "description": "We cross-reference government databases to validate real estate licenses and business registration IDs."
+      },
+      "reputation": {
+        "title": "Reputation Audit",
+        "description": "We scan public records and review platforms for history of malpractice or unresolved consumer complaints."
+      },
+      "address": {
+        "title": "Address Verification",
+        "description": "We verify physical office locations to ensure the business is established and accessible."
+      }
+    }
+  },
+  "dataIntegrity": {
+    "badge": "Data Integrity",
+    "title": "Trust, Transparency & Data Privacy",
+    "description": "We believe that verification shouldn't come at the cost of privacy. EstateTrust adheres to the strictest GDPR and data protection standards.",
+    "features": {
+      "noStorage": "We verify without storing sensitive documents permanently.",
+      "noSelling": "No selling of professional data to third-party marketers.",
+      "encryption": "256-bit encrypted database infrastructure."
+    },
+    "complianceBadge": {
+      "title": "Compliance Passed",
+      "subtitle": "ISO 27001 Standard"
+    }
+  },
+  "listedProfessionals": {
+    "title": "Listed Professionals",
+    "subtitle": "Connect with verified individual agents and brokers.",
+    "viewProfile": "View Profile",
+    "browseAll": "Browse all 2,340 verified professionals",
+    "roles": {
+      "seniorBroker": "Senior Broker",
+      "luxuryAgent": "Luxury Agent",
+      "propertyManager": "Property Manager",
+      "realtor": "Realtor"
+    }
+  },
+  "pricing": {
+    "title": "Who is EstateTrust For?",
+    "subtitle": "Select the verification plan that matches your business size.",
+    "plans": {
+      "individual": {
+        "badge": "Individual",
+        "name": "Individual Professional",
+        "description": "Perfect for any real estate professional starting their verification journey.",
+        "price": "€390",
+        "period": "/year",
+        "setup": "+ €149 one-time verification fee",
+        "features": [
+          "Verified profile page with SEO-optimized backlink",
+          "Digital verification badge for your website",
+          "License & identity verification",
+          "Public trust score display",
+          "Email support"
+        ]
+      },
+      "boutique": {
+        "badge": "Most Popular",
+        "name": "Boutique Team",
+        "description": "For small agencies and teams (2-10 agents).",
+        "price": "€2,400",
+        "period": "/year",
+        "setup": "+ €499 one-time verification fee",
+        "highlight": "Popular Choice",
+        "features": [
+          "Everything in Individual plan",
+          "Up to 10 agent profiles",
+          "Agency profile page with team directory",
+          "Priority verification (48-hour turnaround)",
+          "Dedicated account manager",
+          "Priority email & phone support"
+        ]
+      },
+      "enterprise": {
+        "badge": "Enterprise",
+        "name": "Established Firm",
+        "description": "For growing brokerages with 11-50 agents.",
+        "price": "€6,000",
+        "period": "/year",
+        "setup": "+ €999 one-time verification fee",
+        "features": [
+          "Everything in Boutique Team plan",
+          "Up to 50 agent profiles",
+          "Custom branded profile pages",
+          "API access for integrations",
+          "White-label verification badges",
+          "Quarterly compliance reviews",
+          "Dedicated success manager"
+        ]
+      }
+    },
+    "needMore": "Need more than 50 agents?",
+    "contactSales": "Contact Sales for Enterprise Plans"
+  },
+  "ctaSection": {
+    "title": "Are you a Real Estate Professional?",
+    "description": "Join thousands of verified agents. Gain a high-quality backlink, build instant trust, and stand out in a crowded market.",
+    "getVerified": "Get Verified Now",
+    "learnMore": "Learn about Business Plans"
+  },
+  "footer": {
+    "tagline": "The global standard for trust and transparency in the real estate industry.",
+    "company": {
+      "title": "Company",
+      "aboutUs": "About Us",
+      "howItWorks": "How It Works",
+      "pricing": "Pricing",
+      "blog": "Blog",
+      "careers": "Careers"
+    },
+    "resources": {
+      "title": "Resources",
+      "helpCenter": "Help Center",
+      "verificationGuide": "Verification Guide",
+      "apiDocumentation": "API Documentation",
+      "trustSafety": "Trust & Safety",
+      "compliance": "Compliance"
+    },
+    "contact": {
+      "title": "Contact",
+      "location": "Lisbon, Portugal"
+    },
+    "legal": {
+      "copyright": "EstateTrust. All rights reserved.",
+      "privacyPolicy": "Privacy Policy",
+      "termsOfService": "Terms of Service",
+      "cookiePolicy": "Cookie Policy"
+    }
+  }
+}
