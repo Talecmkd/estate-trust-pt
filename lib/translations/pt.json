@@ -20,30 +20,35 @@
     "partnerCompanies": {
       "lisbonLuxury": {
         "name": "Lisboa Luxo",
-        "type": "Agência Imobiliária"
+        "type": "Agência Imobiliária",
+        "testimonial": "O selo de verificação deu-nos credibilidade instantânea junto dos clientes."
       },
       "primeEstates": {
         "name": "Prime Estates",
-        "type": "Gestão de Propriedades"
+        "type": "Gestão de Propriedades",
+        "testimonial": "O nosso estatuto verificado ajudou-nos a fechar negócios 30% mais rápido."
       },
       "urbanKey": {
         "name": "Urban Key",
-        "type": "Imobiliário Comercial"
+        "type": "Imobiliário Comercial",
+        "testimonial": "Os clientes confiam mais em nós sabendo que somos verificados independentemente."
       },
       "coastalProperties": {
         "name": "Propriedades Costeiras",
-        "type": "Imobiliário de Luxo"
+        "type": "Imobiliário de Luxo",
+        "testimonial": "O selo é uma mudança de jogo para a nossa presença online."
       },
       "metroRealty": {
         "name": "Metro Realty",
-        "type": "Vendas Residenciais"
+        "type": "Vendas Residenciais",
+        "testimonial": "Registámos um aumento significativo de leads qualificados desde que nos verificámos."
       },
       "heritageHomes": {
         "name": "Heritage Homes",
-        "type": "Propriedades Históricas"
+        "type": "Propriedades Históricas",
+        "testimonial": "A verificação distingue-nos num mercado competitivo."
       }
-    },
-    "testimonial": "O selo de verificação deu-nos credibilidade instantânea junto dos clientes."
+    }
   },
   "benefits": {
     "title": "EstateTrust Verification Delivers",

@@ -108,18 +108,18 @@ export default function Hero({ locale }: HeroProps) {
         {/* Marquee */}
         <div className="w-full max-w-7xl mx-auto py-4 overflow-hidden relative mask-edges">
           <div className="flex gap-8 w-max animate-scroll hover:[animation-play-state:paused]">
-            <PartnerCard name={t.hero.partnerCompanies.lisbonLuxury.name} type={t.hero.partnerCompanies.lisbonLuxury.type} testimonial={t.hero.testimonial} />
-            <PartnerCard name={t.hero.partnerCompanies.primeEstates.name} type={t.hero.partnerCompanies.primeEstates.type} testimonial={t.hero.testimonial} />
-            <PartnerCard name={t.hero.partnerCompanies.urbanKey.name} type={t.hero.partnerCompanies.urbanKey.type} testimonial={t.hero.testimonial} />
-            <PartnerCard name={t.hero.partnerCompanies.coastalProperties.name} type={t.hero.partnerCompanies.coastalProperties.type} testimonial={t.hero.testimonial} />
-            <PartnerCard name={t.hero.partnerCompanies.metroRealty.name} type={t.hero.partnerCompanies.metroRealty.type} testimonial={t.hero.testimonial} />
-            <PartnerCard name={t.hero.partnerCompanies.heritageHomes.name} type={t.hero.partnerCompanies.heritageHomes.type} testimonial={t.hero.testimonial} />
-            <PartnerCard name={t.hero.partnerCompanies.lisbonLuxury.name} type={t.hero.partnerCompanies.lisbonLuxury.type} testimonial={t.hero.testimonial} />
-            <PartnerCard name={t.hero.partnerCompanies.primeEstates.name} type={t.hero.partnerCompanies.primeEstates.type} testimonial={t.hero.testimonial} />
-            <PartnerCard name={t.hero.partnerCompanies.urbanKey.name} type={t.hero.partnerCompanies.urbanKey.type} testimonial={t.hero.testimonial} />
-            <PartnerCard name={t.hero.partnerCompanies.coastalProperties.name} type={t.hero.partnerCompanies.coastalProperties.type} testimonial={t.hero.testimonial} />
-            <PartnerCard name={t.hero.partnerCompanies.metroRealty.name} type={t.hero.partnerCompanies.metroRealty.type} testimonial={t.hero.testimonial} />
-            <PartnerCard name={t.hero.partnerCompanies.heritageHomes.name} type={t.hero.partnerCompanies.heritageHomes.type} testimonial={t.hero.testimonial} />
+            <PartnerCard name={t.hero.partnerCompanies.lisbonLuxury.name} type={t.hero.partnerCompanies.lisbonLuxury.type} testimonial={t.hero.partnerCompanies.lisbonLuxury.testimonial} />
+            <PartnerCard name={t.hero.partnerCompanies.primeEstates.name} type={t.hero.partnerCompanies.primeEstates.type} testimonial={t.hero.partnerCompanies.primeEstates.testimonial} />
+            <PartnerCard name={t.hero.partnerCompanies.urbanKey.name} type={t.hero.partnerCompanies.urbanKey.type} testimonial={t.hero.partnerCompanies.urbanKey.testimonial} />
+            <PartnerCard name={t.hero.partnerCompanies.coastalProperties.name} type={t.hero.partnerCompanies.coastalProperties.type} testimonial={t.hero.partnerCompanies.coastalProperties.testimonial} />
+            <PartnerCard name={t.hero.partnerCompanies.metroRealty.name} type={t.hero.partnerCompanies.metroRealty.type} testimonial={t.hero.partnerCompanies.metroRealty.testimonial} />
+            <PartnerCard name={t.hero.partnerCompanies.heritageHomes.name} type={t.hero.partnerCompanies.heritageHomes.type} testimonial={t.hero.partnerCompanies.heritageHomes.testimonial} />
+            <PartnerCard name={t.hero.partnerCompanies.lisbonLuxury.name} type={t.hero.partnerCompanies.lisbonLuxury.type} testimonial={t.hero.partnerCompanies.lisbonLuxury.testimonial} />
+            <PartnerCard name={t.hero.partnerCompanies.primeEstates.name} type={t.hero.partnerCompanies.primeEstates.type} testimonial={t.hero.partnerCompanies.primeEstates.testimonial} />
+            <PartnerCard name={t.hero.partnerCompanies.urbanKey.name} type={t.hero.partnerCompanies.urbanKey.type} testimonial={t.hero.partnerCompanies.urbanKey.testimonial} />
+            <PartnerCard name={t.hero.partnerCompanies.coastalProperties.name} type={t.hero.partnerCompanies.coastalProperties.type} testimonial={t.hero.partnerCompanies.coastalProperties.testimonial} />
+            <PartnerCard name={t.hero.partnerCompanies.metroRealty.name} type={t.hero.partnerCompanies.metroRealty.type} testimonial={t.hero.partnerCompanies.metroRealty.testimonial} />
+            <PartnerCard name={t.hero.partnerCompanies.heritageHomes.name} type={t.hero.partnerCompanies.heritageHomes.type} testimonial={t.hero.partnerCompanies.heritageHomes.testimonial} />
           </div>
         </div>
       </div>

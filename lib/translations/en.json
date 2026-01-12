@@ -20,30 +20,35 @@
     "partnerCompanies": {
       "lisbonLuxury": {
         "name": "Lisbon Luxury",
-        "type": "Real Estate Agency"
+        "type": "Real Estate Agency",
+        "testimonial": "The verification seal gave us instant credibility with clients."
       },
       "primeEstates": {
         "name": "Prime Estates",
-        "type": "Property Management"
+        "type": "Property Management",
+        "testimonial": "Our verified status helped us close deals 30% faster."
       },
       "urbanKey": {
         "name": "Urban Key",
-        "type": "Commercial RE"
+        "type": "Commercial RE",
+        "testimonial": "Clients trust us more knowing we're independently verified."
       },
       "coastalProperties": {
         "name": "Coastal Properties",
-        "type": "Luxury Real Estate"
+        "type": "Luxury Real Estate",
+        "testimonial": "The badge is a game-changer for our online presence."
       },
       "metroRealty": {
         "name": "Metro Realty",
-        "type": "Residential Sales"
+        "type": "Residential Sales",
+        "testimonial": "We've seen a significant increase in qualified leads since getting verified."
       },
       "heritageHomes": {
         "name": "Heritage Homes",
-        "type": "Historic Properties"
+        "type": "Historic Properties",
+        "testimonial": "Verification sets us apart in a competitive market."
       }
-    },
-    "testimonial": "The verification seal gave us instant credibility with clients."
+    }
   },
   "benefits": {
     "title": "EstateTrust Verification Delivers",

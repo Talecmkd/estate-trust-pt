@@ -26,9 +26,6 @@ export async function generateMetadata({
   return {
     title: titles[typedLocale] || titles.en,
     description: descriptions[typedLocale] || descriptions.en,
-    icons: {
-      icon: "/favicon.ico",
-    },
   };
 }
 
