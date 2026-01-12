@@ -89,21 +89,21 @@ export default function HowWeVerify() {
                 />
                 
                 {/* Verified Partner Badge Overlay */}
-                <div className="absolute bottom-6 right-6 bg-white border border-slate-200 rounded-lg p-4 shadow-lg z-10">
-                  <div className="flex flex-col items-center gap-2 text-center">
+                <div className="absolute bottom-6 right-6 bg-white border border-slate-200 rounded-md px-2 py-1.5 shadow-lg z-10">
+                  <div className="flex flex-col items-center gap-0.5">
                     <Image
                       src="/logo.svg"
                       alt="EstateTrust Logo"
-                      width={32}
-                      height={32}
-                      className="w-8 h-8 flex-shrink-0"
+                      width={16}
+                      height={16}
+                      className="w-4 h-4 flex-shrink-0"
                     />
-                    <p className="text-lg font-bold text-slate-800">
+                    <span className="text-xs font-semibold text-slate-800 leading-tight">
                       EstateTrust
-                    </p>
-                    <p className="text-xs text-slate-500 uppercase tracking-wide">
-                      Verified Partner
-                    </p>
+                    </span>
+                    <span className="text-[10px] text-slate-500 uppercase tracking-wide leading-tight">
+                      Verified
+                    </span>
                   </div>
                 </div>
               </div>
