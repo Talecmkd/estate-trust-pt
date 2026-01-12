@@ -20,7 +20,7 @@ export default function DataIntegrity() {
 
               {/* Description */}
               <p className="text-base text-[#6B7280] leading-relaxed">
-                We believe that verification shouldn't come at the cost of privacy. EstateTrust adheres to the strictest GDPR and data protection standards.
+                We believe that verification shouldn&apos;t come at the cost of privacy. EstateTrust adheres to the strictest GDPR and data protection standards.
               </p>
 
               {/* Feature List */}

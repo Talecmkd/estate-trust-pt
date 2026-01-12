@@ -15,7 +15,7 @@ export default function TermsOfService() {
             <section>
               <h2 className="text-2xl font-bold text-white mt-8 mb-4">1. Acceptance of Terms</h2>
               <p>
-                By accessing and using EstateTrust's services, you accept and agree to be bound by the terms and provision of this agreement. If you do not agree to abide by the above, please do not use this service.
+                By accessing and using EstateTrust&apos;s services, you accept and agree to be bound by the terms and provision of this agreement. If you do not agree to abide by the above, please do not use this service.
               </p>
             </section>
 
@@ -77,7 +77,7 @@ export default function TermsOfService() {
             <section>
               <h2 className="text-2xl font-bold text-white mt-8 mb-4">9. Disclaimer of Warranties</h2>
               <p>
-                The service is provided on an "AS IS" and "AS AVAILABLE" basis without warranties of any kind, either express or implied. EstateTrust does not warrant that the service will be uninterrupted, secure, or error-free.
+                The service is provided on an &quot;AS IS&quot; and &quot;AS AVAILABLE&quot; basis without warranties of any kind, either express or implied. EstateTrust does not warrant that the service will be uninterrupted, secure, or error-free.
               </p>
             </section>
 
@@ -98,7 +98,7 @@ export default function TermsOfService() {
             <section>
               <h2 className="text-2xl font-bold text-white mt-8 mb-4">12. Changes to Terms</h2>
               <p>
-                We reserve the right to modify or replace these Terms at any time. We will provide notice of any material changes by posting the new Terms on this page and updating the "Last Updated" date. Your continued use of the service after any changes constitutes acceptance of the new Terms.
+                We reserve the right to modify or replace these Terms at any time. We will provide notice of any material changes by posting the new Terms on this page and updating the &quot;Last Updated&quot; date. Your continued use of the service after any changes constitutes acceptance of the new Terms.
               </p>
             </section>
 
