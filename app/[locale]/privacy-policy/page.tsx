@@ -267,9 +267,10 @@ const content = {
   }
 };
 
-export default function PrivacyPolicy({ params }: { params: Promise<{ locale: Locale }> }) {
+export default function PrivacyPolicy({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = use(params);
-  const t = content[locale];
+  const typedLocale = locale as Locale;
+  const t = content[typedLocale];
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-900 via-brand-navy to-slate-900">
@@ -302,7 +303,7 @@ export default function PrivacyPolicy({ params }: { params: Promise<{ locale: Lo
                   <div key={subIdx}>
                     <h3 className="text-xl font-semibold text-white mt-6 mb-3">{sub.subtitle}</h3>
                     <p>{sub.content}</p>
-                    {sub.list && (
+                    {'list' in sub && sub.list && (
                       <ul className="list-disc pl-6 space-y-2">
                         {sub.list.map((item, i) => (
                           <li key={i}>{item}</li>

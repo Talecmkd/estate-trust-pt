@@ -12,9 +12,10 @@ import Footer from '@/components/Footer';
 import { Locale } from '@/lib/i18n';
 import { useTranslations } from '@/lib/use-translations';
 
-export default function Home({ params }: { params: Promise<{ locale: Locale }> }) {
+export default function Home({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = use(params);
-  const t = useTranslations(locale);
+  const typedLocale = locale as Locale;
+  const t = useTranslations(typedLocale);
 
   const handleShowHome = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -23,7 +24,7 @@ export default function Home({ params }: { params: Promise<{ locale: Locale }> }
   return (
     <>
       <Navigation
-        locale={locale}
+        locale={typedLocale}
         onShowHome={handleShowHome}
         onGetVerified={() => {
           setTimeout(() => {
@@ -33,12 +34,12 @@ export default function Home({ params }: { params: Promise<{ locale: Locale }> }
       />
 
       <main className="flex-grow">
-        <Hero locale={locale} />
-        <Benefits locale={locale} />
-        <HowWeVerify locale={locale} />
-        <DataIntegrity locale={locale} />
-        <ListedProfessionals locale={locale} />
-        <Pricing locale={locale} />
+        <Hero locale={typedLocale} />
+        <Benefits locale={typedLocale} />
+        <HowWeVerify locale={typedLocale} />
+        <DataIntegrity locale={typedLocale} />
+        <ListedProfessionals locale={typedLocale} />
+        <Pricing locale={typedLocale} />
 
         {/* CTA Section */}
         <section className="py-20 bg-brand text-white">
@@ -64,7 +65,7 @@ export default function Home({ params }: { params: Promise<{ locale: Locale }> }
         </section>
       </main>
 
-      <Footer locale={locale} onLinkClick={handleShowHome} />
+      <Footer locale={typedLocale} onLinkClick={handleShowHome} />
     </>
   );
 }

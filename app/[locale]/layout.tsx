@@ -8,9 +8,10 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 export async function generateMetadata({
   params,
 }: {
-  params: Promise<{ locale: Locale }>;
+  params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
   const { locale } = await params;
+  const typedLocale = locale as Locale;
 
   const titles = {
     en: "EstateTrust | Real Estate Verification & Certification",
@@ -23,8 +24,8 @@ export async function generateMetadata({
   };
 
   return {
-    title: titles[locale] || titles.en,
-    description: descriptions[locale] || descriptions.en,
+    title: titles[typedLocale] || titles.en,
+    description: descriptions[typedLocale] || descriptions.en,
     icons: {
       icon: "/favicon.ico",
     },
@@ -38,14 +39,15 @@ export function generateStaticParams() {
 export default async function LocaleLayout({
   children,
   params,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-  params: Promise<{ locale: Locale }>;
-}>) {
+  params: Promise<{ locale: string }>;
+}) {
   const { locale } = await params;
+  const typedLocale = locale as Locale;
 
   return (
-    <html lang={locale}>
+    <html lang={typedLocale}>
       <body className={`${inter.variable} font-sans antialiased flex flex-col min-h-screen`}>
         {children}
       </body>
