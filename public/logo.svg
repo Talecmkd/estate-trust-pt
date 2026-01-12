@@ -1,0 +1,23 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Shield base -->
+  <path d="M100 20L35 55V95C35 130 55 160 100 180C145 160 165 130 165 95V55L100 20Z" fill="#1c1c3c"/>
+
+  <!-- Inner shield accent -->
+  <path d="M100 35L50 62V95C50 123 65 148 100 165C135 148 150 123 150 95V62L100 35Z" fill="#009966"/>
+
+  <!-- House roof -->
+  <path d="M100 75L75 95H125L100 75Z" fill="white"/>
+
+  <!-- House base -->
+  <rect x="80" y="95" width="40" height="35" fill="white"/>
+
+  <!-- Door -->
+  <rect x="92" y="108" width="16" height="22" fill="#009966"/>
+
+  <!-- Window on door (checkmark style) -->
+  <path d="M96 115L99 118L104 112" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Decorative accent circles -->
+  <circle cx="100" cy="100" r="70" stroke="#00b67a" stroke-width="2" opacity="0.3" fill="none"/>
+  <circle cx="100" cy="100" r="75" stroke="#006644" stroke-width="1" opacity="0.2" fill="none"/>
+</svg>
