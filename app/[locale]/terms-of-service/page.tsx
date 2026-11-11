@@ -1,4 +1,3 @@
-import { Mail } from 'lucide-react';
 
 export default function TermsOfService() {
   return (
@@ -102,15 +101,6 @@ export default function TermsOfService() {
               </p>
             </section>
 
-            <section>
-              <h2 className="text-2xl font-bold text-white mt-8 mb-4">13. Contact Information</h2>
-              <div className="flex items-center gap-2 text-brand">
-                <Mail className="w-5 h-5" />
-                <a href="mailto:kelloggfairbank@gmail.com" className="hover:text-brand-light transition">
-                  kelloggfairbank@gmail.com
-                </a>
-              </div>
-            </section>
           </div>
         </div>
       </div>

@@ -214,7 +214,6 @@ All Portuguese translations use **European Portuguese (pt-PT)**:
 
 ## 📞 Support
 For questions or issues:
-- Email: kelloggfairbank@gmail.com
 - Check agent output: `C:\Users\Mihail\AppData\Local\Temp\claude\c--Users-Mihail-Documents-GitHub-estate-trust-pt\tasks\a0f21d0.output`
 
 ---

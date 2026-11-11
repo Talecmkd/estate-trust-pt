@@ -1,4 +1,4 @@
-import { Mail, Cookie, Settings, BarChart, Shield } from 'lucide-react';
+import { Cookie, Settings, BarChart, Shield } from 'lucide-react';
 
 export default function CookiePolicy() {
   return (
@@ -199,18 +199,6 @@ export default function CookiePolicy() {
               </p>
             </section>
 
-            <section>
-              <h2 className="text-2xl font-bold text-white mt-8 mb-4">10. Contact Us</h2>
-              <p>
-                If you have questions about our use of cookies or this Cookie Policy, please contact us:
-              </p>
-              <div className="flex items-center gap-2 text-brand mt-4">
-                <Mail className="w-5 h-5" />
-                <a href="mailto:kelloggfairbank@gmail.com" className="hover:text-brand-light transition">
-                  kelloggfairbank@gmail.com
-                </a>
-              </div>
-            </section>
 
             <section className="mt-8 p-6 bg-brand/10 border border-brand/20 rounded-lg">
               <h3 className="text-xl font-semibold text-white mb-3">Your Consent</h3>
