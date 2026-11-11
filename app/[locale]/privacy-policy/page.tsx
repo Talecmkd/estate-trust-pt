@@ -1,7 +1,7 @@
 'use client';
 
 import { use } from 'react';
-import { Mail, Shield, Lock, Eye, Database, Users } from 'lucide-react';
+import { Shield, Lock, Eye, Database, Users } from 'lucide-react';
 import { Locale } from '@/lib/i18n';
 
 const content = {
@@ -317,14 +317,6 @@ export default function PrivacyPolicy({ params }: { params: Promise<{ locale: st
               </section>
             ))}
 
-            <section>
-              <div className="flex items-center gap-2 text-brand mt-4">
-                <Mail className="w-5 h-5" />
-                <a href="mailto:kelloggfairbank@gmail.com" className="hover:text-brand-light transition">
-                  kelloggfairbank@gmail.com
-                </a>
-              </div>
-            </section>
 
             <section className="mt-8 p-6 bg-brand/10 border border-brand/20 rounded-lg">
               <h3 className="text-xl font-semibold text-white mb-3">{t.gdprTitle}</h3>
